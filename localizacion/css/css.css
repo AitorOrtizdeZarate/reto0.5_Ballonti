@@ -42,7 +42,7 @@
 #paginas{
 	display: flex;
 	width: 70%;
-	height: 50em;
+	height: 30em;
 	flex-direction: column;
 	justify-content: space-around;
 	border: solid;
