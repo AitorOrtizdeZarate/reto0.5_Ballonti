@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 #header{
 	display: flex;
 	flex-direction: column;
@@ -21,6 +22,7 @@
 	justify-content: space-around;
 	border-bottom: 1px solid;
 	border-top: 1px solid;
+	
 }
 #inf{
 	height: 100%;
@@ -144,8 +146,3 @@ ul{
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
-
-/*Insertar producto*/
-#insertar_producto_titulo{
-	border: solid;
-}
