@@ -45,7 +45,7 @@
 	height: 50em;
 	flex-direction: column;
 	justify-content: space-around;
-	border: solid;
+	background-color: #CDCDCD;
 
 	
 }
@@ -144,3 +144,8 @@ ul{
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+/*Insertar producto*/
+#insertar_producto_titulo{
+	border: solid;
+}

@@ -42,17 +42,16 @@
 #paginas{
 	display: flex;
 	width: 70%;
-	height: 200px;
+	height: 20em;
 	flex-direction: column;
-	justify-content: space-around;
-	border: solid;
-	align-items: flex-end;
+	background-color: #CDCDCD
 }
 .servicios{
 	height: 80%;
 	width: 20%;
 	border: solid;
 	margin: auto;
+	border-radius: 2em;
 }
 #cuadrados{
 	display: flex;
@@ -64,6 +63,7 @@
 .serImg{
 	width: 100%;
 	height: 100%;	
+	border-radius: 1.7em;
 }
 * {box-sizing: border-box;}
 .mySlides {display: none;
@@ -152,4 +152,37 @@
 #mini{
 	width: 30%;
 	
+}
+/*Aimar*/
+#div_introduccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 60%;
+}
+#txt_mensaje {
+    text-align: center;
+    font-size: 2em;
+}
+#txt_mensaje2 {
+    
+    width: 40em;
+}
+#etiquetas_general_titulo {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+#titulo_general_etiquetas_texto {
+    font-size: 2em;
+    
+}
+#etiqueta_nombre {
+    text-align: center;
+    font-size: 1.5em;
+   
 }
