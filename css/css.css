@@ -22,7 +22,11 @@
 	border-bottom: 1px solid;
 	border-top: 1px solid;
 }
+.titulo_index{
+	width: 20%;
+}
 #inf{
+	margin-top: 0.2%;
 	height: 100%;
 	width: 2%;
 	justify-content: center;
@@ -42,7 +46,7 @@
 #paginas{
 	display: flex;
 	width: 70%;
-	height: 20em;
+	height: 22em;
 	flex-direction: column;
 	background-color: #CDCDCD
 }
@@ -156,7 +160,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     width: 60%;
 }
 #txt_mensaje {
@@ -199,7 +204,7 @@
 #insertar_producto{
 	display: flex;
 	width: 50%;
-	height: 15em;
+	height: 20em;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
@@ -326,8 +331,30 @@ ul{
 	height: 30em;
 	flex-direction: column;
 	justify-content: space-around;
+	align-items: center;
 	border: solid;
 }
 #texto_mapa{
 	margin: 50px;
+}
+/* Idiomas */
+#idiomas{
+	display: flex;
+	flex-direction: row;
+
+}
+#idiomas{
+	width: 12%;
+	margin-top: 0.2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.div_idiomas_fotos{
+	width: 4em;
+	height: 2em;
+}
+.idiomas_fotos{
+	width: 100%;
+	height: 100%;
 }

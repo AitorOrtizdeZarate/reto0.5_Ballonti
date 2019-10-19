@@ -2,7 +2,9 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/css.css">
-	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.translate.js"></script>
+	<script type="text/javascript" src="js/jsidiomas.js"></script>
 	<title>Centro Comercial Ballonti</title>
 </head>
 <body>
@@ -11,31 +13,44 @@
 		<img src="imagenes/ballontifeat.jpg" id="ban">
 	</div>
 	<div id="menu">
-		<h1>Centro Comercial Ballonti</h1>
+		<div class="titulo_index">
+		<h1 class="trn" data-trn-key="titulo">Centro Comercial Ballonti</h1>
+		</div>
+		<div id="idiomas">
+			<div class="div_idiomas_fotos">
+				<img src="imagenes/españa.png" class="idiomas_fotos" onclick="cambiarEspañol()">
+			</div>
+			<div class="div_idiomas_fotos">
+				<img src="imagenes/ikurriña.png" class="idiomas_fotos" onclick="cambiarEuskera()">
+			</div>
+			<div class="div_idiomas_fotos">
+				<img src="imagenes/ingles.jpg" class="idiomas_fotos" onclick="cambiarIngles()">
+			</div>
+		</div>
 		<div id="inf">
-		<a href="Informacion/informacion.html"><img src="imagenes/inf.png" id="infb"></a>
+		<a href="informacion.html"><img src="imagenes/inf.png" id="infb"></a>
 		</div>
 	</div>
 </div>
 <div id="contenedor">
 	
 	<div id="div_introduccion">
-            <p id="txt_mensaje">VEN A BALLONTI A DISFRUTAR DE TU TIEMPO LIBRE</p>
-            <p id="txt_mensaje2">En Ballonti encontraras un ampli centro comercial dirigido a todas las edades, donde podras hacer tus compras en las mejores tiendas. Disponemos de un amplio sitio ocio tales como cines, boleras, txikiparks y muchos mas !!!</p>
-            <img src="/imagenes/ballontifeat.jpg" alt="">
+            <p id="txt_mensaje" class="trn" data-trn-key="introduccion1">VEN A BALLONTI A DISFRUTAR DE TU TIEMPO LIBRE</p>
+            <p id="txt_mensaje2" class="trn" data-trn-key="introduccion2">En Ballonti encontraras un ampli centro comercial dirigido a todas las edades, donde podras hacer tus compras en las mejores tiendas. Disponemos de un amplio sitio ocio tales como cines, boleras, txikiparks y muchos mas !!!</p>
+            
         </div>
 
 	<div id="paginas">
 		<div id="etiquetas_general_titulo">
-                <p id="titulo_general_etiquetas_texto">SERVICIOS</p>
+                <p id="titulo_general_etiquetas_texto" class="trn" data-trn-key="titulo_servicios">SERVICIOS</p>
             </div>
 		<div id="cuadrados">
 			<div class="servicios"><a href="#"><img src="imagenes/tiendas.jpg" class="serImg"></a>
-			<p id="etiqueta_nombre">Tiendas</p></div>
+			<p id="etiqueta_nombre" class="trn" data-trn-key="tiendas">Tiendas</p></div>
 			<div class="servicios"><a href="#"><img src="imagenes/ocio.jpg" class="serImg"></a>
-			<p id="etiqueta_nombre">Ocio</p></div>
+			<p id="etiqueta_nombre" class="trn" data-trn-key="ocio">Ocio</p></div>
 			<div class="servicios"><a href="#"><img src="imagenes/maps.png" class="serImg"></a>
-			<p id="etiqueta_nombre">Localizacion</p></div>
+			<p id="etiqueta_nombre" class="trn" data-trn-key="localizacion">Localizacion</p></div>
 			</div>
 		</div>
 	<div class="slideshow-container">
@@ -69,7 +84,7 @@
 	<script src="js/js.js"></script>
 	<div id="footer">
 		<div><img src="imagenes/logo.gif"></div>
-		<div id="mini">A sólo 10 minutos de Bilbao, C.C. Ballonti es mucho más que un espacio para realizar tus compras, es un lugar donde el tiempo de ocio se llena de emoción para toda la familia...</div>
+		<div id="mini" class="trn" data-trn-key="footer">A sólo 10 minutos de Bilbao, C.C. Ballonti es mucho más que un espacio para realizar tus compras, es un lugar donde el tiempo de ocio se llena de emoción para toda la familia...</div>
 		<div>Tlf: (+34) 944 915 246<br>Fax:    (+34) 944 926 822<br> mail:   spain.ballonti@cbre.com</div>
 	</div>
 
